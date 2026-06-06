@@ -1,81 +1,52 @@
 🚀 Roblox LARP Tools
-A lightweight Chrome extension toolkit designed to enhance the Roblox experience with fast, simple, and developer-friendly utilities.
 
-⚙️ Features
+A powerful Chrome extension packed with utility tools, profile customization features, and Roblox web enhancements.
 
+Roblox LARP Tools is designed for Roblox players who want more control over their browser experience. From profile visual customization to server utilities, the extension provides a collection of lightweight tools that are fast, easy to use, and require no complicated setup.
 
-Extra tools for Roblox web experience
-
-
-Fast in-browser utility panel
-
-
-Lightweight and minimal performance impact
-
-
-Easy to install and use
-
-
-Developer-friendly structure
-
-
-
+✨ Features
+🎭 Profile Customization
+Fake Verified Badge
+Fake Roblox Staff Badge
+Fake Premium Badge
+Custom Profile Visual Effects
+Local Profile Enhancements
+📊 Visual Statistics Tools
+Fake Followers Counter
+Fake Robux Display
+Customizable Profile Numbers
+Client-Side Profile Modifications
+🌎 Server Utilities
+Empty Server Finder
+Quick Server Navigation
+Fast Server Browsing Tools
+⚠️ Fun & Entertainment Features
+Fake Ban Screen Generator
+Prank Profile Features
+Visual Roblox Interface Tweaks
+⚡ General Utilities
+Lightweight Performance
+Fast Browser Integration
+Simple User Interface
+One-Click Access Panel
+Easy Installation
 📦 Installation
-1. Download
-
-
-Download the repository as ZIP:
-
-
-Click Code → Download ZIP on GitHub
-
-
-
-
-2. Extract
-
-
-Extract the ZIP file to a folder on your computer
-
-
-3. Install on Chrome
-
-
-Open Chrome
-
-
-Go to:
+Download the repository as ZIP.
+Extract the files.
+Open Chrome and go to:
 chrome://extensions/
+Enable Developer Mode.
+Click Load Unpacked.
+Select the extracted folder.
+⚠️ Important Notice
 
+All profile modifications, badges, follower counts, Robux displays, and similar features are visual client-side effects only. They do not modify Roblox servers, account data, Robux balances, verification status, or any official Roblox systems.
 
-Enable Developer Mode (top right corner)
+💡 Why Roblox LARP Tools?
+Modern and lightweight design
+Useful Roblox browser utilities
+Fun profile customization features
+Fast and simple setup
+Built for Roblox enthusiasts and developers
 
-
-Click Load unpacked
-
-
-Select the extracted folder
-
-
-
-🧠 How to Use
-
-
-Once installed, open Roblox in your browser
-
-
-The extension will activate automatically
-
-
-Use the in-game panel/tools for available features
-
-
-
-📁 Project Structure
-background.jscontent.jspayload.jsmanifest.json
-
-⚠️ Disclaimer
-This project is created for educational and development purposes. Use responsibly and follow Roblox platform rules.
-
-💡 Purpose
-To provide developers with quick tools and utilities for testing and enhancing Roblox web experiences.
+Enhance your Roblox browser experience with a collection of powerful and easy-to-use tools. 🚀
