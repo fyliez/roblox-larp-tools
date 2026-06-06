@@ -1,4 +1,4 @@
-![image alt](https://github.com/fyliez/roblox-larp-tools/blob/main/photo.png)
+![image alt](https://raw.githubusercontent.com/fyliez/roblox-larp-tools/refs/heads/main/photo.png)
 
 🚀 Roblox LARP Tools
 
