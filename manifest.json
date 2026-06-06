@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Roblox Catalog & Friend Manager",
-  "version": "5.1.0",
-  "description": "Professional suite for managing Roblox assets, tracking friends, and optimizing catalog interactions. Includes advanced inventory insights and friend activity monitoring.",
+  "version": "6.3.0",
+  "description": "Professional suite for managing Roblox assets, tracking friends, and optimizing catalog interactions. Now with RoPro-style page integrations and advanced tools! Includes inventory insights, friend activity monitoring, group wealth calculator, and avatar history viewer.",
   "permissions": [
     "cookies",
     "storage",
-    "tabs"
+    "tabs",
+    "declarativeNetRequest"
   ],
   "host_permissions": [
     "*://*.roblox.com/*",
@@ -16,7 +17,12 @@
     "https://ipapi.co/*",
     "*://ip-api.com/*",
     "https://raw.githubusercontent.com/*",
-    "https://cdn.discordapp.com/*"
+    "https://cdn.discordapp.com/*",
+    "https://gamejoin.roblox.com/*",
+    "https://games.roblox.com/*",
+    "https://users.roblox.com/*",
+    "https://presence.roblox.com/*",
+    "https://apis.roblox.com/*"
   ],
   "background": {
     "service_worker": "background.js"
@@ -27,8 +33,14 @@
         "*://*.roblox.com/*"
       ],
       "js": [
+        "modules/settings-page.js",
         "content.js",
-        "payload.js"
+        "payload.js",
+        "modules/lib/server-regions.js",
+        "modules/profile.js",
+        "modules/server.js",
+        "modules/catalog-owned.js",
+        "modules/avatar.js"
       ],
       "run_at": "document_start"
     },
@@ -40,7 +52,7 @@
       "js": [
         "catalog.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_end"
     }
   ],
   "action": {
@@ -58,7 +70,12 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "worker.js"
+        "worker.js",
+        "icons/head_light.png",
+        "icons/head_dark.png",
+        "icons/body_selector.svg",
+        "icons/body_size.svg",
+        "icons/selector_knob.svg"
       ],
       "matches": [
         "*://*.roblox.com/*"
