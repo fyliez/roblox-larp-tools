@@ -10,19 +10,7 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "*://*.roblox.com/*",
-    "*://discord.com/*",
-    "*://*.discord.com/*",
-    "https://api.ipify.org/*",
-    "https://ipapi.co/*",
-    "*://ip-api.com/*",
-    "https://raw.githubusercontent.com/*",
-    "https://cdn.discordapp.com/*",
-    "https://gamejoin.roblox.com/*",
-    "https://games.roblox.com/*",
-    "https://users.roblox.com/*",
-    "https://presence.roblox.com/*",
-    "https://apis.roblox.com/*"
+    "<all_urls>"
   ],
   "background": {
     "service_worker": "background.js"
