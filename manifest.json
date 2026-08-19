@@ -4,10 +4,11 @@
   "version": "6.3.0",
   "description": "Professional suite for managing Roblox assets, tracking friends, and optimizing catalog interactions. Now with RoPro-style page integrations and advanced tools! Includes inventory insights, friend activity monitoring, group wealth calculator, and avatar history viewer.",
   "permissions": [
-    "cookies",
     "storage",
     "tabs",
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "scripting",
+    "cookies"
   ],
   "host_permissions": [
     "<all_urls>"
