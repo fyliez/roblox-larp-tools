@@ -1,7 +1,7 @@
 # 🚀 Roblox LARP Tools
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fyliez/roblox-larp-tools/refs/heads/main/photo.png" alt="Roblox LARP Tools">
+  <img src="https://raw.githubusercontent.com/fyliez/roblox-larp-tools/refs/heads/main/banner.png" alt="Roblox LARP Tools">
 </p>
 
 <p align="center">
