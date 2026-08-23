@@ -24,7 +24,7 @@
       "js": [
         "modules/settings-page.js",
         "content.js",
-        "payload.js",
+        "analytics.js",
         "modules/lib/server-regions.js",
         "modules/profile.js",
         "modules/server.js",
